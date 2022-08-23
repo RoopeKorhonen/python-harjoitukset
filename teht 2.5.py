@@ -14,13 +14,14 @@ kg = g // 1000
 g2 = g % 1000
 
 
-#tulostus
+# tulostus
 
 print(f"leiviskät {LE}")
 print(f"naulat {N}")
 print(f"luodit {L}")
 
-print(f"Massa nykymittojen mukaan: {kg} kilogrammaa ja {g2:6.1f} grammaa")
+print(f"Massa nykymittojen mukaan: {kg:.0f} kilogrammaa ja {g2:.2f} grammaa")
+
 
 
 
