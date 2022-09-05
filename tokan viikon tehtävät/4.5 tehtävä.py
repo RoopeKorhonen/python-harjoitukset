@@ -9,7 +9,6 @@ index += 1
 if userNameInput == käyttäjätunnus and passwordInput == salasana :
     kirjautuminen = True
 
-
     while kirjautuminen == False and index < 5:
         käyttäjätunnus = input('Anna käyttäjätunnus ')
         salasana = input('Anna salasana: ')

@@ -7,3 +7,4 @@ while tuumienmäärä >= 0:
     print(tuuma*tuumienmäärä)
     tuumienmäärä = int(input("tuumien määrä"))
 print("Ohjelma loppu")
+    break
