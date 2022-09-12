@@ -10,7 +10,3 @@ while luku != "":
 res.sort(reverse=True)
 f1 = res[0:5]
 print(f"Suurimmat luvut ovat {f1}")
-
-
-
-
